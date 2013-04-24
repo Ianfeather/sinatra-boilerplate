@@ -2,5 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  haml :index
+  haml :index, :layout => :layout
 end
